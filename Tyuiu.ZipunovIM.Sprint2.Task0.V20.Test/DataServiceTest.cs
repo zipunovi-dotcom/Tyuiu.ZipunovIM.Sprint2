@@ -12,7 +12,7 @@ namespace Tyuiu.ZipunovIM.Sprint2.Task0.V20.Test
             int y = 275;
             bool[] res = new bool[6];
             res = ds.GetCompareOperations(x, y);
-            bool[] wait = new bool[6] { false, true, false, true, false, true };
+            bool[] wait = new bool[6] { true,false,true,false,true,false };
 
             CollectionAssert.AreEqual(wait, res);
         }
